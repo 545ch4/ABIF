@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["s@rprojekt.org"]
   spec.description   = %q{ABIF file format reader/parse/plotter.}
   spec.summary       = %q{Handle/Parse/Plot ABIF (Applied Biosystems Genetic Analysis Data File Format) FSA, AB1 and HID files.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/545ch4/ABIF"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
