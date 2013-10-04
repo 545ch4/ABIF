@@ -20,9 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-file = ABIF::File.new(<.fsa|ab1|hid file or IO stream>)
-puts file.data.keys
-puts file.data['RunN_1']
+	$ file = ABIF::File.new(<.fsa|ab1|hid file or IO stream>)
+	$ puts file.data.keys
+	$ puts file.data['RunN_1']
 
 
 ## Contributing
