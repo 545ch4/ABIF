@@ -1,8 +1,15 @@
 require 'zlib'
 require 'openssl'
 
+# This program is a ABIF file (Applied Biosystems Genetic Analysis Data File Format)
+# reader. It takes a ABIF file (.fsa) or HID file (.hid) and reading its content to several arrays of (named) datapoints.
+# For in-depths description of the file format see http://www.appliedbiosystems.com/support/software_community/ABIF_File_Format.pdf
+#
+# Author::    Sascha Willuweit  (s@rprojekt.org)
+# Copyright:: Copyright (c) 2013 Sascha Willuweit
+# License::   MIT
 module ABIF
-	# This class holds the FSA/HID file format data. It's initialized given the filename or an IO object.
+	# This class holds the ABIF file format data. It's initialized given the filename or an IO object.
 	# Options are:
 	# [:normalize] All channels are normalized with respect to their 500-datapoint-tail assuming it means-up to 0.
 	class File
