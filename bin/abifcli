@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+require 'ABIF/CLI'
+ABIF::CLI.start
